@@ -1,0 +1,366 @@
+{
+  "_meta": {
+    "app": "EMB Global · PMS FY 2025-26",
+    "version": "4.1",
+    "description": "Static seed data for the EMB Performance Management System. All employee records, KRA templates, behavioural competencies and rating scales are defined here.",
+    "lastUpdated": "2025-04-01",
+    "fiscalYear": "FY 2025-26",
+    "cycles": ["monthly", "quarterly", "annual"]
+  },
+
+  "employees": [
+    {"code":"EMB-306","name":"Raghav Maheshwari","gender":"Male","dept":"Founders' Office","desig":"COO's Office","mgr":"Rohan Raj Barua","mgrCode":"EMB-2","email":"raghav.maheshwari@emb.global","status":"Active"},
+    {"code":"EMB-347","name":"Manav Bhatia","gender":"Male","dept":"Tech & Product","desig":"Asst Manager-AI Product","mgr":"Rohan Raj Barua","mgrCode":"EMB-2","email":"manav.bhatia@emb.global","status":"Active"},
+    {"code":"EMB-367","name":"Gaunik Singh","gender":"Male","dept":"Delivery","desig":"Senior Associate - Solution Ops","mgr":"Harparinderjit Singh","mgrCode":"EMB-430","email":"gaunik.singh@emb.global","status":"Active"},
+    {"code":"EMB-46","name":"Muskan Goyal","gender":"Female","dept":"Finance","desig":"Asst Accounts Manager","mgr":"Anju Bhargava","mgrCode":"EMB-417","email":"muskan@emb.global","status":"Active"},
+    {"code":"EMB-3","name":"Unnat Bansal","gender":"Male","dept":"Founders' Office","desig":"Director - Outreach","mgr":"Nishant Behl","mgrCode":"EMBM-1","email":"unnat@emb.global","status":"Active"},
+    {"code":"EMB-217","name":"Ankit Agarwal","gender":"Male","dept":"Management","desig":"CBO - India","mgr":"Nishant Behl","mgrCode":"EMBM-1","email":"ankit.agarwal@emb.global","status":"Active"},
+    {"code":"EMB-2","name":"Rohan Raj Barua","gender":"Male","dept":"Management","desig":"COO","mgr":"Nishant Behl","mgrCode":"EMBM-1","email":"rohan@emb.global","status":"Active"},
+    {"code":"EMB-126","name":"Devashish","gender":"Male","dept":"Delivery","desig":"Associate Director - Delivery","mgr":"Ankit Agarwal","mgrCode":"EMB-217","email":"devashish@emb.global","status":"Active"},
+    {"code":"EMB-319","name":"Tanshi Arora","gender":"Female","dept":"Delivery","desig":"Senior Associate - Delivery","mgr":"Harparinderjit Singh","mgrCode":"EMB-430","email":"tanshi.arora@emb.global","status":"Active"},
+    {"code":"EMB-81","name":"Fakhir Rahmani","gender":"Male","dept":"Delivery","desig":"Manager - Delivery","mgr":"Harparinderjit Singh","mgrCode":"EMB-430","email":"fakhir.rahmani@emb.global","status":"Active"},
+    {"code":"EMB-364","name":"Nikhil Singh","gender":"Male","dept":"Delivery","desig":"Senior Associate - Delivery","mgr":"Harparinderjit Singh","mgrCode":"EMB-430","email":"nikhil.singh@emb.global","status":"Active"},
+    {"code":"EMB-373","name":"Kuljeet Chandel","gender":"Male","dept":"Delivery","desig":"Asst Manager - Delivery","mgr":"Harparinderjit Singh","mgrCode":"EMB-430","email":"kuljeet.chandel@emb.global","status":"Active"},
+    {"code":"EMB-70","name":"Suhanee Kesharwani","gender":"Female","dept":"People & Culture","desig":"Manager - P&C","mgr":"Rohan Raj Barua","mgrCode":"EMB-2","email":"suhanee.kesharwani@emb.global","status":"Active","isHRBP":true},
+    {"code":"EMB-326","name":"Baldev Malhotra","gender":"Male","dept":"People & Culture","desig":"Senior Associate","mgr":"Raghav Maheshwari","mgrCode":"EMB-306","email":"baldev.malhotra@emb.global","status":"Active"},
+    {"code":"EMB-140","name":"Ashish Ranjan","gender":"Male","dept":"Tech Sales","desig":"Manager - Sales","mgr":"Rohan Bhatial","mgrCode":"EMB-424","email":"ashish.ranjan@emb.global","status":"Active"},
+    {"code":"EMB-143","name":"Tejaswa Sharma","gender":"Male","dept":"Finance","desig":"Asst Manager - Data Analyst","mgr":"Raghav Maheshwari","mgrCode":"EMB-306","email":"tejaswa.sharma@emb.global","status":"Active"},
+    {"code":"EMB-206","name":"Pallavi Gupta","gender":"Female","dept":"Enterprise","desig":"Manager - Enterprise Sales","mgr":"Ankit Agarwal","mgrCode":"EMB-217","email":"pallavi.gupta@emb.global","status":"Active"},
+    {"code":"EMB-335","name":"Harsh Shukla","gender":"Male","dept":"RA","desig":"Asst Manager - Client Engagement","mgr":"Divyansh Gupta","mgrCode":"EMB-5","email":"harsh.shukla@emb.global","status":"Active"},
+    {"code":"EMB-390","name":"Khushi Garg","gender":"Female","dept":"Enterprise","desig":"Senior Associate - Enterprise","mgr":"Pallavi Gupta","mgrCode":"EMB-206","email":"khushi.garg@emb.global","status":"Active"},
+    {"code":"EMB-5","name":"Divyansh Gupta","gender":"Male","dept":"RA","desig":"Director - Sales","mgr":"Ankit Agarwal","mgrCode":"EMB-217","email":"divyansh@emb.global","status":"Active"},
+    {"code":"EMB-77","name":"Bhavika Gupta","gender":"Female","dept":"Enterprise","desig":"Manager - Delivery","mgr":"Harparinderjit Singh","mgrCode":"EMB-430","email":"bhavika.gupta@emb.global","status":"Active"},
+    {"code":"EMB-193","name":"Dharmvir Dharmacharya","gender":"Male","dept":"Tech & Product","desig":"SDE-3","mgr":"Prakash Singh","mgrCode":"EMB-44","email":"dharmvir.dharmacharya@emb.global","status":"Active"},
+    {"code":"EMB-44","name":"Prakash Singh","gender":"Male","dept":"Tech & Product","desig":"Engineering Manager","mgr":"Rohan Raj Barua","mgrCode":"EMB-2","email":"prakash@emb.global","status":"Active"},
+    {"code":"EMB-396","name":"Pawan Patra","gender":"Male","dept":"Marketing","desig":"SDE - I","mgr":"Unnat Bansal","mgrCode":"EMB-3","email":"pawan.patra@emb.global","status":"Active"},
+    {"code":"EMB-402","name":"Mukul Dhupia","gender":"Male","dept":"RA","desig":"Manager Operations","mgr":"Divyansh Gupta","mgrCode":"EMB-5","email":"mukul.dhupia@emb.global","status":"Active"},
+    {"code":"EMB-404","name":"Anupriya Makhloga","gender":"Female","dept":"Tech Sales","desig":"Solution Architect-I","mgr":"Rohan Bhatial","mgrCode":"EMB-424","email":"anupriya.makhloga@emb.global","status":"Active"},
+    {"code":"EMB-407","name":"Ata Suhail","gender":"Male","dept":"Marketing","desig":"Senior Manager - Marketing","mgr":"Unnat Bansal","mgrCode":"EMB-3","email":"ata.suhail@emb.global","status":"Active"},
+    {"code":"EMB-410","name":"Jitendra Sharma","gender":"Male","dept":"Cloud","desig":"Director","mgr":"Ankit Agarwal","mgrCode":"EMB-217","email":"jitendra.sharma@emb.global","status":"Active"},
+    {"code":"EMB-417","name":"Anju Bhargava","gender":"Female","dept":"Finance","desig":"Senior Manager - Finance","mgr":"Piyush Garg","mgrCode":"EMBC-1","email":"anju.bhargava@emb.global","status":"Active"},
+    {"code":"EMB-422","name":"Simran","gender":"Female","dept":"Tech & Product","desig":"SDE-I","mgr":"Manav Bhatia","mgrCode":"EMB-347","email":"simran@emb.global","status":"Active"},
+    {"code":"EMB-428","name":"Gaurav Kumar","gender":"Male","dept":"Finance","desig":"Accounts Manager","mgr":"Anju Bhargava","mgrCode":"EMB-417","email":"gaurav.rajput@emb.global","status":"Active"},
+    {"code":"EMB-430","name":"Harparinderjit Singh","gender":"Male","dept":"Delivery","desig":"Director - Delivery","mgr":"Ankit Agarwal","mgrCode":"EMB-217","email":"harparinderjit.singh@emb.global","status":"Active"},
+    {"code":"EMB-431","name":"Bharat Pandey","gender":"Male","dept":"Tech & Product","desig":"Junior QA","mgr":"Prakash Singh","mgrCode":"EMB-44","email":"bharat.pandey@emb.global","status":"Active"},
+    {"code":"EMB-435","name":"Himanshu Dixit","gender":"Male","dept":"Tech & Product","desig":"SDE-1","mgr":"Manav Bhatia","mgrCode":"EMB-347","email":"himanshu.dixit@emb.global","status":"Active"},
+    {"code":"EMB-437","name":"Saumya Gupta","gender":"Female","dept":"Tech & Product","desig":"Associate QA Engineer","mgr":"Prakash Singh","mgrCode":"EMB-44","email":"saumya.gupta@emb.global","status":"Active"},
+    {"code":"EMB-438","name":"Bhawna Girdhar","gender":"Female","dept":"Tech & Product","desig":"SDE-1","mgr":"Prakash Singh","mgrCode":"EMB-44","email":"bhawna.girdhar@emb.global","status":"Active"},
+    {"code":"EMB-439","name":"Khushi Arora","gender":"Female","dept":"Marketing","desig":"Associate SEO","mgr":"Unnat Bansal","mgrCode":"EMB-3","email":"khushi.arora@emb.global","status":"Active"},
+    {"code":"EMB-442","name":"Rishu Dutta","gender":"Male","dept":"People & Culture","desig":"Talent Acquisition Specialist","mgr":"Suhanee Kesharwani","mgrCode":"EMB-70","email":"rishu.dutta@emb.global","status":"Active"},
+    {"code":"EMB-444","name":"Dheeraj Kumar","gender":"Male","dept":"People & Culture","desig":"Asst Manager - HR Ops","mgr":"Raghav Maheshwari","mgrCode":"EMB-306","email":"dheeraj.kumar@emb.global","status":"Active"},
+    {"code":"EMB-447","name":"Ashish Mishra","gender":"Male","dept":"Tech & Product","desig":"AI Product Manager","mgr":"Rohan Raj Barua","mgrCode":"EMB-2","email":"ashish.mishra@emb.global","status":"Active"},
+    {"code":"EMB-448","name":"Abhay Saraswat","gender":"Male","dept":"Tech & Product","desig":"AI Engineer","mgr":"Manav Bhatia","mgrCode":"EMB-347","email":"abhay.saraswat@emb.global","status":"Active"},
+    {"code":"EMB-450","name":"Arushi Gupta","gender":"Female","dept":"Tech Sales","desig":"Solution Architect - II","mgr":"Rohan Bhatial","mgrCode":"EMB-424","email":"arushi.gupta@emb.global","status":"Active"},
+    {"code":"EMB-451","name":"Rohan Giri","gender":"Male","dept":"Marketing","desig":"Copywriter","mgr":"Ata Suhail","mgrCode":"EMB-407","email":"rohan.giri@emb.global","status":"Active"},
+    {"code":"EMB-452","name":"Charu Jhamb","gender":"Female","dept":"Cloud","desig":"Cloud Consultant","mgr":"Karan Chhabra","mgrCode":"EMB-434","email":"charu.jhamb@emb.global","status":"Active"},
+    {"code":"EMB-453","name":"Suramyaa Tewari","gender":"Female","dept":"Marketing","desig":"Project Manager","mgr":"Ata Suhail","mgrCode":"EMB-407","email":"suramyaa@emb.global","status":"Active"},
+    {"code":"EMB-459","name":"Gaurav Rauthan","gender":"Male","dept":"Tech & Product","desig":"SDE-I","mgr":"Prakash Singh","mgrCode":"EMB-44","email":"gaurav.rauthan@emb.global","status":"Active"},
+    {"code":"EMB-460","name":"Himanshu Jain","gender":"Male","dept":"Enterprise","desig":"Asst Manager - Enterprise Sales","mgr":"Pallavi Gupta","mgrCode":"EMB-206","email":"himanshu.jain@emb.global","status":"Active"},
+    {"code":"EMB-461","name":"Md Bilal","gender":"Male","dept":"Marketing","desig":"Technical SEO Specialist","mgr":"Unnat Bansal","mgrCode":"EMB-3","email":"md.bilal@emb.global","status":"Active"},
+    {"code":"EMB-462","name":"Prince","gender":"Male","dept":"Tech & Product","desig":"SDE-I","mgr":"Manav Bhatia","mgrCode":"EMB-347","email":"prince@emb.global","status":"Active"},
+    {"code":"EMB-463","name":"Iftikar Hussian","gender":"Male","dept":"Tech & Product","desig":"DevOps Engineer","mgr":"Prakash Singh","mgrCode":"EMB-44","email":"iftikar.hussian@emb.global","status":"Active"},
+    {"code":"EMB-464","name":"Akhil Sharma","gender":"Male","dept":"People & Culture","desig":"Senior IT Analyst","mgr":"Raghav Maheshwari","mgrCode":"EMB-306","email":"akhil.sharma@emb.global","status":"Active"},
+    {"code":"EMB-469","name":"Nishka Bhojwani","gender":"Female","dept":"Tech Sales","desig":"Associate Consultant","mgr":"Rohan Bhatial","mgrCode":"EMB-424","email":"nishka.bhojwani@emb.global","status":"Active"},
+    {"code":"EMB-472","name":"Shuchi Singh","gender":"Female","dept":"Enterprise","desig":"Marketing Project Manager","mgr":"Pallavi Gupta","mgrCode":"EMB-206","email":"shuchi.singh@emb.global","status":"Active"},
+    {"code":"EMB-473","name":"Varun Narula","gender":"Male","dept":"Growth","desig":"Manager - Growth","mgr":"Ankit Agarwal","mgrCode":"EMB-217","email":"varun.narula@emb.global","status":"Active"},
+    {"code":"EMB-474","name":"Md Afsar Khan","gender":"Male","dept":"Enterprise","desig":"Associate Delivery Manager","mgr":"Pallavi Gupta","mgrCode":"EMB-206","email":"afsar.khan@emb.global","status":"Active"},
+    {"code":"EMB-475","name":"Rajat Agrawal","gender":"Male","dept":"Tech Sales","desig":"Senior Manager - BD","mgr":"Rohan Bhatial","mgrCode":"EMB-424","email":"rajat.agrawal@emb.global","status":"Active"},
+    {"code":"EMB-478","name":"Arin Dwivedi","gender":"Male","dept":"Delivery","desig":"Associate Delivery Manager","mgr":"Kuljeet Chandel","mgrCode":"EMB-373","email":"arin.dwivedi@emb.global","status":"Active"},
+    {"code":"EMB-477","name":"Karan Kumar","gender":"Male","dept":"Tech Sales","desig":"Associate - Presales","mgr":"Rohan Bhatial","mgrCode":"EMB-424","email":"karan.kumar@emb.global","status":"Active"},
+    {"code":"EMB-479","name":"Vishruth Agnihotri","gender":"Male","dept":"Marketing","desig":"Brand Manager","mgr":"Ata Suhail","mgrCode":"EMB-407","email":"vishruth.agnihotri@emb.global","status":"Active"},
+    {"code":"EMB-480","name":"Bhavisha Pasrija","gender":"Female","dept":"RA","desig":"Technical Recruiter","mgr":"Divyansh Gupta","mgrCode":"EMB-5","email":"bhavisha.pasrija@emb.global","status":"Active"},
+    {"code":"EMB-481","name":"Akash Soni","gender":"Male","dept":"Marketing","desig":"SDE-II","mgr":"Pawan Patra","mgrCode":"EMB-396","email":"akash.soni@emb.global","status":"Active"},
+    {"code":"EMB-482","name":"Kajal Sharma","gender":"Female","dept":"Delivery","desig":"Project Coordinator","mgr":"Harparinderjit Singh","mgrCode":"EMB-430","email":"kajal.sharma@emb.global","status":"Active"},
+    {"code":"EMB-483","name":"Garv Agarwal","gender":"Male","dept":"Marketing","desig":"Asst Manager - Graphic Design","mgr":"Unnat Bansal","mgrCode":"EMB-3","email":"garv.agarwal@emb.global","status":"Active"},
+    {"code":"EMB-485","name":"Poorvi Malhotra","gender":"Female","dept":"People & Culture","desig":"Manager - P&C","mgr":"Rohan Raj Barua","mgrCode":"EMB-2","email":"poorvi.malhotra@emb.global","status":"Active","isHRBP":true},
+    {"code":"EMB-486","name":"Piyush Mittal","gender":"Male","dept":"Finance","desig":"Asst Manager - Finance","mgr":"Anju Bhargava","mgrCode":"EMB-417","email":"piyush.mittal@emb.global","status":"Active"},
+    {"code":"EMB-487","name":"Tejasv Dua","gender":"Male","dept":"Cloud","desig":"Solution Architect","mgr":"Jitendra Sharma","mgrCode":"EMB-410","email":"tejasv.dua@emb.global","status":"Active"},
+    {"code":"EMB-488","name":"Aayushi Maindola","gender":"Female","dept":"Growth","desig":"Brand Associate","mgr":"Varun Narula","mgrCode":"EMB-473","email":"aayushi.maindola@emb.global","status":"Active"},
+    {"code":"EMB-489","name":"Divyansh Pant","gender":"Male","dept":"Cloud","desig":"Associate - Cloud Consultant","mgr":"Sandeep Dubey","mgrCode":"EMB-468","email":"divyansh.pant@emb.global","status":"Probation"},
+    {"code":"EMB-491","name":"Muskan Sharma","gender":"Female","dept":"Cloud","desig":"Cloud Consultant - Inside Sales","mgr":"Karan Chhabra","mgrCode":"EMB-434","email":"muskan.sharma@emb.global","status":"Probation"},
+    {"code":"EMB-492","name":"Vaishali Gupta","gender":"Female","dept":"Tech Sales","desig":"Business Analyst","mgr":"Rohan Bhatial","mgrCode":"EMB-424","email":"vaishali.gupta@emb.global","status":"Probation"},
+    {"code":"EMB-493","name":"Ashish Garg","gender":"Male","dept":"Tech Sales","desig":"Senior Director","mgr":"Ankit Agarwal","mgrCode":"EMB-217","email":"ashish.garg@emb.global","status":"Probation"},
+    {"code":"EMB-494","name":"Neeraj Manral","gender":"Male","dept":"Tech & Product","desig":"SDE-II","mgr":"Prakash Singh","mgrCode":"EMB-44","email":"neeraj.manral@emb.global","status":"Active"},
+    {"code":"EMBI-188","name":"Diya Rana","gender":"Female","dept":"Growth","desig":"Growth Trainee","mgr":"Varun Narula","mgrCode":"EMB-473","email":"diya.rana@emb.global","status":"Active"},
+    {"code":"EMB-495","name":"Navin Prajapati","gender":"Male","dept":"Finance","desig":"Asst Manager - Finance","mgr":"Anju Bhargava","mgrCode":"EMB-417","email":"navin.prajapati@emb.global","status":"Probation"},
+    {"code":"EMB-496","name":"Abinash Mahapatra","gender":"Male","dept":"Tech Sales","desig":"Senior Associate - Presales","mgr":"Ashish Garg","mgrCode":"EMB-493","email":"abinash.mahapatra@emb.global","status":"Probation"}
+  ],
+
+  "departments": [
+    "Founders' Office",
+    "Tech & Product",
+    "Delivery",
+    "Finance",
+    "Management",
+    "People & Culture",
+    "Tech Sales",
+    "Enterprise",
+    "RA",
+    "Marketing",
+    "Cloud",
+    "Growth"
+  ],
+
+  "bizFunctions": ["Cloud", "Tech Sales", "Enterprise", "Marketing", "RA"],
+
+  "kraTemplates": {
+    "Delivery": [
+      {
+        "k": "Delivery Numbers",
+        "w": 0.45,
+        "kpis": [
+          {"n": "Delivered Revenue",    "w": 0.20, "t": "Quant", "ph": "e.g. ₹1,98,96,149 (India + MENA)"},
+          {"n": "Gross Margin",         "w": 0.10, "t": "Quant", "ph": "e.g. ₹76,70,019"},
+          {"n": "Timely Delivery",      "w": 0.10, "t": "Qual",  "ph": "Zero escalations, on-time delivery"},
+          {"n": "Projects Delivered",   "w": 0.05, "t": "Quant", "ph": "e.g. 8 Projects closed"}
+        ]
+      },
+      {
+        "k": "Project Management",
+        "w": 0.30,
+        "kpis": [
+          {"n": "Email / MoM Quality",       "w": 0.10, "t": "Qual",  "ph": "Quality of written communication"},
+          {"n": "Review Meeting Cadence",    "w": 0.10, "t": "Qual",  "ph": "Monthly cadence maintained? Yes/No"},
+          {"n": "Customer NPS",              "w": 0.10, "t": "Quant", "ph": "NPS score (1-10)"}
+        ]
+      },
+      {
+        "k": "Cross-sell / Up-sell",
+        "w": 0.15,
+        "kpis": [
+          {"n": "GMV Closed / Lead Generated", "w": 0.15, "t": "Quant", "ph": "List upsells with ₹ value"}
+        ]
+      },
+      {
+        "k": "Upskilling",
+        "w": 0.10,
+        "kpis": [
+          {"n": "Certification / Course", "w": 0.05, "t": "Qual", "ph": "e.g. PM Cert - Udemy"},
+          {"n": "New Initiative",         "w": 0.05, "t": "Qual", "ph": "Initiatives beyond core job scope"}
+        ]
+      }
+    ],
+    "People & Culture": [
+      {
+        "k": "Talent Acquisition",
+        "w": 0.40,
+        "kpis": [
+          {"n": "Hiring TAT",           "w": 0.20, "t": "Quant", "ph": "Avg days to close a role (<30 days)"},
+          {"n": "Offer Acceptance Rate","w": 0.10, "t": "Quant", "ph": "% offers accepted (>85%)"},
+          {"n": "Quality of Hire",      "w": 0.10, "t": "Qual",  "ph": "Manager satisfaction feedback"}
+        ]
+      },
+      {
+        "k": "Retention & Engagement",
+        "w": 0.30,
+        "kpis": [
+          {"n": "Attrition Rate", "w": 0.15, "t": "Quant", "ph": "Monthly attrition (<2%)"},
+          {"n": "eNPS Score",     "w": 0.15, "t": "Quant", "ph": "Employee NPS score"}
+        ]
+      },
+      {
+        "k": "HR Operations",
+        "w": 0.20,
+        "kpis": [
+          {"n": "Process Compliance", "w": 0.10, "t": "Qual", "ph": "Payroll, documentation, compliance"},
+          {"n": "Policy Rollouts",    "w": 0.10, "t": "Qual", "ph": "HR policies implemented"}
+        ]
+      },
+      {
+        "k": "Learning & Development",
+        "w": 0.10,
+        "kpis": [
+          {"n": "Training Programs",    "w": 0.05, "t": "Qual", "ph": "Training sessions facilitated"},
+          {"n": "Upskilling Initiatives","w": 0.05, "t": "Qual", "ph": "L&D programs executed"}
+        ]
+      }
+    ],
+    "Tech & Product": [
+      {
+        "k": "Delivery & Quality",
+        "w": 0.50,
+        "kpis": [
+          {"n": "Sprint Velocity",          "w": 0.25, "t": "Quant", "ph": "% story points completed (>90%)"},
+          {"n": "Code Quality / Bug Rate",  "w": 0.15, "t": "Quant", "ph": "Defects per release"},
+          {"n": "On-time Feature Delivery", "w": 0.10, "t": "Qual",  "ph": "Features delivered on time"}
+        ]
+      },
+      {
+        "k": "Collaboration",
+        "w": 0.20,
+        "kpis": [
+          {"n": "Cross-team Collaboration", "w": 0.10, "t": "Qual", "ph": "Work with design, product, delivery"},
+          {"n": "Documentation",            "w": 0.10, "t": "Qual", "ph": "Technical docs, PRDs quality"}
+        ]
+      },
+      {
+        "k": "Innovation & Growth",
+        "w": 0.20,
+        "kpis": [
+          {"n": "New Technology",  "w": 0.10, "t": "Qual", "ph": "New tech explored or implemented"},
+          {"n": "Certifications",  "w": 0.10, "t": "Qual", "ph": "Courses, certifications completed"}
+        ]
+      },
+      {
+        "k": "Ownership",
+        "w": 0.10,
+        "kpis": [
+          {"n": "Initiative Beyond Scope", "w": 0.10, "t": "Qual", "ph": "Ownership beyond job description"}
+        ]
+      }
+    ],
+    "Enterprise": [
+      {
+        "k": "Revenue Generation",
+        "w": 0.50,
+        "kpis": [
+          {"n": "Revenue Closed",   "w": 0.30, "t": "Quant", "ph": "₹ revenue closed this quarter"},
+          {"n": "Pipeline Created", "w": 0.20, "t": "Quant", "ph": "₹ new pipeline this quarter"}
+        ]
+      },
+      {
+        "k": "Client Management",
+        "w": 0.30,
+        "kpis": [
+          {"n": "Client Retention",    "w": 0.15, "t": "Qual", "ph": "Accounts retained / grown"},
+          {"n": "Relationship Quality","w": 0.15, "t": "Qual", "ph": "Client feedback and satisfaction"}
+        ]
+      },
+      {
+        "k": "Initiatives",
+        "w": 0.20,
+        "kpis": [
+          {"n": "Market Expansion", "w": 0.10, "t": "Qual", "ph": "New segments or geographies entered"},
+          {"n": "Product Adoption",  "w": 0.10, "t": "Qual", "ph": "Upsell/cross-sell executed"}
+        ]
+      }
+    ],
+    "Marketing": [
+      {
+        "k": "Campaign Performance",
+        "w": 0.40,
+        "kpis": [
+          {"n": "Lead Generation", "w": 0.20, "t": "Quant", "ph": "Leads generated this cycle"},
+          {"n": "Campaign ROI",    "w": 0.20, "t": "Quant", "ph": "ROI on marketing spend"}
+        ]
+      },
+      {
+        "k": "Content & Brand",
+        "w": 0.30,
+        "kpis": [
+          {"n": "Content Output",    "w": 0.15, "t": "Quant", "ph": "Pieces published / campaigns run"},
+          {"n": "Brand Initiatives", "w": 0.15, "t": "Qual",  "ph": "Brand building activities"}
+        ]
+      },
+      {
+        "k": "SEO & Organic",
+        "w": 0.30,
+        "kpis": [
+          {"n": "Organic Traffic Growth", "w": 0.15, "t": "Quant", "ph": "Organic traffic % growth"},
+          {"n": "Keyword Rankings",       "w": 0.15, "t": "Quant", "ph": "Keywords in top 10"}
+        ]
+      }
+    ],
+    "RA": [
+      {
+        "k": "Recruitment Operations",
+        "w": 0.60,
+        "kpis": [
+          {"n": "Sourcing Volume",     "w": 0.30, "t": "Quant", "ph": "Candidates sourced"},
+          {"n": "Quality of Profiles", "w": 0.30, "t": "Qual",  "ph": "Interview-to-selection ratio"}
+        ]
+      },
+      {
+        "k": "Client Engagement",
+        "w": 0.40,
+        "kpis": [
+          {"n": "Client Satisfaction",      "w": 0.20, "t": "Qual",  "ph": "Client feedback and NPS"},
+          {"n": "Requirement Fulfillment",  "w": 0.20, "t": "Quant", "ph": "% requirements fulfilled on time"}
+        ]
+      }
+    ],
+    "Finance": [
+      {
+        "k": "Financial Reporting",
+        "w": 0.50,
+        "kpis": [
+          {"n": "Report Accuracy",  "w": 0.30, "t": "Qual", "ph": "Error-free, on-time financial reports"},
+          {"n": "Month-end Close",  "w": 0.20, "t": "Qual", "ph": "Close completed by target date"}
+        ]
+      },
+      {
+        "k": "Compliance",
+        "w": 0.30,
+        "kpis": [
+          {"n": "Statutory Compliance", "w": 0.30, "t": "Qual", "ph": "GST, TDS, ROC filings on time"}
+        ]
+      },
+      {
+        "k": "Process Improvement",
+        "w": 0.20,
+        "kpis": [
+          {"n": "Automation / Efficiency", "w": 0.20, "t": "Qual", "ph": "Process improvements implemented"}
+        ]
+      }
+    ],
+    "_default": [
+      {
+        "k": "Core Deliverables",
+        "w": 0.50,
+        "kpis": [
+          {"n": "Primary KPI",   "w": 0.30, "t": "Quant", "ph": "Your main deliverable"},
+          {"n": "Secondary KPI", "w": 0.20, "t": "Qual",  "ph": "Supporting deliverable"}
+        ]
+      },
+      {
+        "k": "Collaboration",
+        "w": 0.25,
+        "kpis": [
+          {"n": "Cross-team Collaboration", "w": 0.15, "t": "Qual", "ph": "Cross-functional work"},
+          {"n": "Process Adherence",        "w": 0.10, "t": "Qual", "ph": "Systems and tools usage"}
+        ]
+      },
+      {
+        "k": "Growth",
+        "w": 0.25,
+        "kpis": [
+          {"n": "New Initiatives", "w": 0.15, "t": "Qual", "ph": "Beyond job scope"},
+          {"n": "Upskilling",      "w": 0.10, "t": "Qual", "ph": "Courses or certifications"}
+        ]
+      }
+    ]
+  },
+
+  "behaviouralCompetencies": [
+    {"n": "Ownership & Accountability", "d": "Takes end-to-end responsibility for delivery, timelines and quality."},
+    {"n": "Communication",              "d": "Clear, structured communication with clients, vendors, and teams."},
+    {"n": "Collaboration",              "d": "Works effectively cross-functionally to drive shared outcomes."},
+    {"n": "Problem Solving",            "d": "Identifies issues and applies practical solutions quickly."},
+    {"n": "Learning Agility",           "d": "Adapts to new technologies, tools and business requirements."},
+    {"n": "Leadership Potential",       "d": "Demonstrates initiative and ability to influence stakeholders."}
+  ],
+
+  "ratingScale": {
+    "codes": ["FEE", "EE", "ME", "BE", "NI"],
+    "labels": {
+      "FEE": "Far Exceeds",
+      "EE":  "Exceeds",
+      "ME":  "Meets",
+      "BE":  "Below Expectations",
+      "NI":  "Needs Improvement"
+    },
+    "scores": {
+      "FEE": 5,
+      "EE":  4,
+      "ME":  3,
+      "BE":  2,
+      "NI":  1
+    }
+  },
+
+  "cycleLabels": {
+    "monthly":   "Monthly · April 2025",
+    "quarterly": "Q1 FY 2025-26",
+    "annual":    "Annual FY 2025-26"
+  }
+}
