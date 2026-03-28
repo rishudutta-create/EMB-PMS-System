@@ -1,0 +1,15 @@
+{
+  "name": "emb-pms",
+  "version": "4.1.0",
+  "description": "EMB Global · Performance Management System FY 2025-26",
+  "private": true,
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev":   "npx serve . -p 3000"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["pms", "performance-management", "emb-global"],
+  "license": "UNLICENSED"
+}
